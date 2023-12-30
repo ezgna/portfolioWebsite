@@ -1,0 +1,109 @@
+/*
+font-family: 'Noto Sans', sans-serif;
+*/
+h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+body {
+    margin: 0;
+    color: #292A33;
+    background-color: rgb(221, 221, 221);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    background-color: rgb(201, 201, 201);
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    padding: 0 30px;
+    padding-top: 30px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section > p {
+    padding-left: 20px;
+}
+
+p {
+    margin: 0;
+    line-height: 200%;
+}
+
+li {
+    line-height: 200%;
+}
+
+#dark-mode-toggle {
+    align-self: center;
+    justify-self: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(221, 221, 221);
+    background-color: #292A33;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+#icons {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding-top: 10px;
+}
+
+#icons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media only screen and (max-width: 1024px) {
+    #icons {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #icons {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #icons {
+        width: 80%;
+    }
+}
+
+#kakuyomu {
+    width: 30px;
+    transform: translateY(1px);
+}
+
+/* forJavascript */
+.dark-mode {
+    background-color: #292A33;
+    color: rgb(221, 221, 221);
+}
+
+.dark-mode-header {
+    background-color: #383a46;
+}
+
+.dark-mode-button {
+    color: black;
+    background-color: white;
+}
